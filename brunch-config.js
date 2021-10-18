@@ -21,6 +21,6 @@ module.exports = {
   
   server: {
   hostname: '0.0.0.0',
-  port: 4139
+  port: process.env.PORT
   }
   };
