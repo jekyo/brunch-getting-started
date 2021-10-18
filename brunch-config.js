@@ -20,7 +20,7 @@ module.exports = {
   },
   
   server: {
-  hostname: process.env.HOST,
+  hostname: '0.0.0.0',
   port: process.env.PORT
   }
   };
